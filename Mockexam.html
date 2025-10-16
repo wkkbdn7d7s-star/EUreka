@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mock Exam</title>
+
+  <!-- Shared global styles (back arrow, fonts) -->
+  <link rel="stylesheet" href="EUreka-base.css">
+
+  <!-- Module-specific styles -->
+  <link rel="stylesheet" href="Mockexam.css">
+</head>
+<body>
+  <!-- Back arrow -->
+  <a href="index.html" class="back-arrow" title="Back to homepage">←</a>
+
+  <div class="container">
+    <header class="page-header">
+      <h1>Mock Exam</h1>
+      <p>Simulate a full EU interview practice with Knowledge, Competency, and Motivation questions.</p>
+    </header>
+
+    <main class="card">
+      <div id="content">
+        <p>Click "Start Mock Exam" to begin the simulation.</p>
+        <div class="controls">
+          <button id="startBtn">Start Mock Exam</button>
+        </div>
+      </div>
+
+      <div class="status">
+        <span id="timer">00:00</span>
+      </div>
+    </main>
+  </div>
+
+  <!-- Mock Exam JS -->
+  <script src="Mockexam.js"></script>
+</body>
+</html>
